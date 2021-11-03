@@ -234,11 +234,12 @@ window.onload = () => {
         // ctx.clearRect(0, 0, canvas.width, canvas.height)
         santaX = 10;
         score = 0;
-        obstacles = [
-            {el: rock, x: rockX, y: rockY}, 
-            {el: goodPoke, x: goodX, y: rockY},
-            {el: pika, x: pikaX, y: pikaY}  
-        ]
+        rockX = 900;
+        // obstacles = [
+        //     {el: rock, x: rockX, y: rockY}, 
+        //     {el: goodPoke, x: goodX, y: rockY},
+        //     {el: pika, x: pikaX, y: pikaY}  
+        // ]
         isGameOver = false;
         
         
